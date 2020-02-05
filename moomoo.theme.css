@@ -1,0 +1,44 @@
+/*//META{"name":"Moomoo","description":"A very light theme which makes discord a tiny bit darker","author":"Moorad","version":"1.0.0"}*//**/	
+/*changes everything around the messages div*/
+.scroller-1JbKMe, .container-PNkimc, .members-1998pB,.embedFull-2tM8--, .privateChannels-1nO12o, .container-1r6BKw.themed-ANHk51 {
+    background:#202225;
+}
+
+/*changes the background of the div behind the list server list (The thing on the far left)*/
+.scroller-2TZvBN {
+    background:#121212;
+}
+
+/*don't remember what that changes*/
+.messages-3amgkR{
+    background:#2f3136;
+}
+
+/*You see the box around the messaging input box. this is the colour of that*/
+.chat-3bRxxu {
+    background:#292b2f;
+}
+
+/*the colour of the messages background*/
+.messages-3amgkR {
+    background:#2A2D30;
+}
+
+/*The colour of the title bar when this editor is detached (leave it)*/
+.appMount-3lHmkl, body {
+    background:#121212;
+}
+
+.theme-dark {
+    /*colour of the icons*/
+    --interactive-normal: #DFDDDA;
+    /*the background colour of the server's icon if they don't have a custom icon (change it and you will understand) */
+    --background-primary: #202225;
+}
+/*The colour of code (when someone types `this` in discord)*/
+/*leave the !important because it will not be applied without it*/
+.markup-2BOw-j code {
+    background-color:#202020;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
